@@ -23,3 +23,6 @@ let somenumbers = null
 let Stringnumber = String(somenumbers)
 console.log(Stringnumber)
 console.log(typeof Stringnumber)
+
+// ******************opearions**********************
+

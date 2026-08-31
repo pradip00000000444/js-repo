@@ -21,8 +21,9 @@ console.log(booleanisloggedin);
 
 let somenumbers = null
 let Stringnumber = String(somenumbers)
-console.log(Stringnumber)
+console.log(Stringnumber)                           //each of the data  types firt letter shgould be in uppercase and ; is optional we can write but its  not mandatory 
 console.log(typeof Stringnumber)
 
 // ******************opearions**********************
 
+4

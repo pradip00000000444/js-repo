@@ -40,11 +40,24 @@
 // console.log("1"+2+3)
 // console.log(1+2+"1")
 
-console.log(+true)
-console.log(+"") 
+// console.log(+true)
+// console.log(+"") 
  
-let num1,num2,num3
-num1=num2=num3 = 2+2 
-let gamecounter =100 
-++gamecounter;       // here i have used prefix increment 
-console.log(gamecounter)
+// let num1,num2,num3
+// num1=num2=num3 = 2+2 
+// let gamecounter =100 
+// ++gamecounter;       // here i have used prefix increment 
+// console.log(gamecounter)
+
+
+// about prefix increment and postfix increment 
+// let x = 5
+// let y = ++x;
+// console.log(x)
+// console.log(y) // this is  prefix increment and it increses value first than use it. y gets new value 
+
+// ********************
+ let x = 4 
+ let y = x++
+ console.log(x)
+ console.log(y) // here i have used postfix increment and  in this we have to assume that  we should  use first then increment. y gets old value 

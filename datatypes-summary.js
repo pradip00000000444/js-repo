@@ -50,4 +50,4 @@ console.log(userone.email) // pradipbhat150@gmail.com
 console.log(usertwo.email) // pradipbhat150@gmail.com
 
   // using stack memory we get the copy of the valut 
-  // usinh heap memeory we get the refrence of the value so if we change the value of refrence it will also change the original value.  
+  // usinh heap memeory we get the refrence of the value so if we change the value of refrence it will also change the original value.  3d

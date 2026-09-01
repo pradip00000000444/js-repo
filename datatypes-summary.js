@@ -27,3 +27,27 @@ const myfunction = function(){
   console.log("hello world")
 }
 console.log(typeof anotherid)
+
+
+//************************************************* */\
+
+
+// stack (use in premitive datatype) and heap (use in refrence datatype)
+
+let myytname = "pradip"
+let  anotheranme = myytname
+anotheranme = "bhat"
+console.log(myytname) //pradip
+console.log(anotheranme) //bhat
+
+let  userone ={
+  email: "user@google.com",
+  upi : "user@upi"
+}
+let usertwo = userone
+usertwo.email = "pradipbhat150@gmail.com"
+console.log(userone.email) // pradipbhat150@gmail.com
+console.log(usertwo.email) // pradipbhat150@gmail.com
+
+  // using stack memory we get the copy of the valut 
+  // usinh heap memeory we get the refrence of the value so if we change the value of refrence it will also change the original value.  

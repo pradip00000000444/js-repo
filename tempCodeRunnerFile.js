@@ -1,0 +1,2 @@
+const anotherstring = gamename.slice(-10, 4) // here we are using slice() method to get the substring of the string. it will return the substring of the string. this is called string slice().
+console.log(anotherstring)

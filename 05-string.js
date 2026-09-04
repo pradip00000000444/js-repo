@@ -16,7 +16,6 @@ console.log(gamename.length) // here we are using length property to get the len
 
 const anotherstring = gamename.slice(-10, 4) // here we are using slice() method to get the substring of the string. it will return the substring of the string. this is called string slice().
 console.log(anotherstring)
-
 const newstring1 = "  pradeep  "
 console.log(newstring1.trim()) // here we are using trim() method to remove the whitespace from the string. it will return the string without whitespace. this is called string trim().
 

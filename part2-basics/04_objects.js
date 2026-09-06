@@ -39,7 +39,15 @@ const course = {
 }
 // course.courseteacher
 
-const{courseteacher: og} = course // alternative of  console.log to print 
+const{courseteacher: og} = course // alternative of  console.log to print (de-structing concept)
 console.log(og)
 
 // console.log(course.courseteacher)
+
+// **************************json concept**********************
+// {
+//   "name": "pradipp",
+//   "course": "nepali in nepali",
+//   "price":"free"
+// }
+

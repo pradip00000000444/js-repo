@@ -19,7 +19,7 @@ console.log(anotherstring)
 const newstring1 = "  pradeep  "
 console.log(newstring1.trim()) // here we are using trim() method to remove the whitespace from the string. it will return the string without whitespace. this is called string trim().
 
-const url = "https://www.pradip%20bhat.com"
+const url = "https://www.pradip%20bhat.com" 
 console.log(url.replace("%20", "_")) // here we are using replace() method to replace the specified string with another string. it will return the string with the replaced string. this is called string replace().
 
 console.log(url.includes("harshit")) // here we are using includes() method to check whether the specified string is present in the string or not. it will return true if the specified string is present in the string otherwise it will return false. this is called string includes().

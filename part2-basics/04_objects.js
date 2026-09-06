@@ -31,4 +31,15 @@ console.log(Object.values(tinderuser))
 console.log(Object.entries(tinderuser))
 
 console.log(tinderuser.hasOwnProperty('pradiphero')) // to checl whether number is present or not in the program.
- 
+
+const course = {
+ coursename: "js hindi classes",
+ price: "1000",
+ courseteacher: "pradip"
+}
+// course.courseteacher
+
+const{courseteacher: og} = course // alternative of  console.log to print 
+console.log(og)
+
+// console.log(course.courseteacher)

@@ -36,3 +36,30 @@ function loginusermessage(username = "pradip") {
   return `${username} just logged in`
 }
 console.log(loginusermessage())
+
+
+function calculateCartPrice(...num1){ // here ... triple dots  are known as rest and spread operators both . it differs in condition. rest  is used to ass unexpected iteams.
+return num1
+}
+console.log(calculateCartPrice(200, 400, 500, 600)) 
+
+const user =   {
+  username: "pradip",
+  prices: 199
+}
+
+function handleObject(anyobject){
+console.log (`username is ${anyobject.username} and price  is ${anyobject.prices}`);
+}
+// handleObject(user)
+handleObject({
+username: "harshit",
+ prices :399
+})
+
+const mynewarray = [200, 300, 400]
+
+function retursecondvalue(getarray){
+return getarray[1]
+}
+console.log(retursecondvalue(mynewarray));
